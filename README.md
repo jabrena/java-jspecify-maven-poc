@@ -1,6 +1,6 @@
 # Java JSpecify Maven POC
 
-## Motivation
+## Motivation
 
 JSpecify aims to solve the problem of null reference errors (like NullPointerException) in Java code.
 
@@ -26,7 +26,7 @@ Here's how it addresses this with objects:
 
 ```
 
-## Preconditions
+## Preconditions
 
 ```java
 //Java
