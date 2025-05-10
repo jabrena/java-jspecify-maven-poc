@@ -8,6 +8,9 @@ public class ConstructorWeak {
     private final String property1;
     private final String property2;
 
+    //Experiment
+    //private String nonUsed;
+
     public ConstructorWeak(@NonNull String property1, @NonNull String property2) {
         //Preconditions
         //I don´t like the exception that raise the method Objects.requireNonNull
