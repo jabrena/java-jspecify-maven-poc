@@ -131,7 +131,6 @@
                              -XepOpt:NullAway:AssertsEnabled=true \
                              -XepOpt:NullAway:AnnotatedPackages=info.jab.oop
                         </arg>
-                        <!-- -XepOpt:NullAway:UnannotatedSubPackages=info.jab.wild -->
                     </compilerArgs>
                     <annotationProcessorPaths>
                         <path>
