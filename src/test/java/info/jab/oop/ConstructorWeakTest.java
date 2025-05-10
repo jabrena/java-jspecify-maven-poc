@@ -1,4 +1,4 @@
-package info.jab.demo;
+package info.jab.oop;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
