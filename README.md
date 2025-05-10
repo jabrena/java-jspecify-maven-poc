@@ -8,12 +8,10 @@ Here's how it addresses this with objects:
 
 - Implicit Nullness: In standard Java, whether an object reference (like a parameter, return value, or field) can be null or not is often unspecified.
 - Explicit Nullness with Annotations: JSpecify introduces standard annotations (like @Nullable, @NonNull, @NullMarked) to make the "nullness" of object types explicit in the code.
-
   - @Nullable: Indicates that a variable, parameter, or return value can hold null.
   - @NonNull: Indicates that a variable, parameter, or return value cannot hold null.
   - @NullMarked: Applied to a package or class, it sets the default to non-null, meaning any unannotated type usage within that scope is assumed to be non-null unless explicitly marked @Nullable.
-
-- Static Analysis: These annotations allow static analysis tools (like NullAway, Error Prone, IntelliJ's inspector) to check the code before runtime (during compilation or in the IDE).
+- Static Analysis
 
 ## How to build in local?
 
