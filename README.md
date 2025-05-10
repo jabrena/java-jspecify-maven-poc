@@ -26,29 +26,20 @@ Here's how it addresses this with objects:
 
 ```
 
-## Preconditions
-
-```java
-//Java
-Objects.requireNonNull(property1)
-
-if(Objects.isNull(property1)) {
-    throw new IllegalArgumentException("Not valid property1");
-}
-
-assert property1 != null : "property1 must not be null"; // Generally not recommended for parameter validation
-//Guava
-this.property1 = Preconditions.checkNotNull(property1, "property1 must not be null");
-//Apache Commons Lang
-this.property1 = Validate.notNull(property1, "property1 must not be null");
-
-```
-
 ## References
 
+- https://jcp.org/en/jsr/detail?id=305
 - https://jspecify.dev/
+- https://jspecify.dev/docs/user-guide/
 - https://errorprone.info/
 - https://errorprone.info/docs/flags
 - https://github.com/uber/NullAway
 - https://github.com/uber/NullAway/wiki
 - https://en.wikipedia.org/wiki/Liskov_substitution_principle
+- https://docs.spring.io/spring-framework/reference/7.0/core/null-safety.html
+- https://spring.io/blog/2025/03/10/null-safety-in-spring-apps-with-jspecify-and-null-away
+- https://github.com/sdeleuze/jspecify-nullway-demo
+- https://www.moderne.ai/blog/mass-migration-of-nullability-annotations-to-jspecify
+- https://github.com/google/guava/wiki/PreconditionsExplained
+
+Powered by [Cursor](https://www.cursor.com/)
