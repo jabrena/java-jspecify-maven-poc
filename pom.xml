@@ -15,7 +15,6 @@
         <!-- Dependencies -->
         <jspecify.version>1.0.0</jspecify.version>
         <guava.version>33.4.8-jre</guava.version>
-        <commons-lang3.version>3.17.0</commons-lang3.version>
 
         <!-- Test dependencies -->
         <mockito.version>5.17.0</mockito.version>
@@ -51,12 +50,6 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>${guava.version}</version>
-        </dependency>
-        <!-- Apache Commons Lang -->
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-            <version>${commons-lang3.version}</version>
         </dependency>
 
         <dependency>
