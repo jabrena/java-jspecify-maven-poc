@@ -10,6 +10,7 @@
 
     <properties>
         <java.version>24</java.version>
+        <maven.version>3.9.9</maven.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <!-- Dependencies -->
@@ -17,14 +18,12 @@
         <guava.version>33.4.8-jre</guava.version>
 
         <!-- Test dependencies -->
-        <mockito.version>5.17.0</mockito.version>
         <junit.version>5.12.0</junit.version>
+        <mockito.version>5.17.0</mockito.version>
         <assertj.version>3.27.3</assertj.version>
 
         <!-- Maven Plugins -->
-        <maven.version>3.9.9</maven.version>
         <maven-plugin-enforcer.version>3.5.0</maven-plugin-enforcer.version>
-
         <maven-plugin-compiler.version>3.14.0</maven-plugin-compiler.version>
         <error-prone.version>2.38.0</error-prone.version>
         <nullaway.version>0.11.0</nullaway.version>
@@ -38,7 +37,7 @@
             <dependency>
                 <groupId>org.junit</groupId>
                 <artifactId>junit-bom</artifactId>
-                <version>5.11.0</version>
+                <version>${junit.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -174,7 +173,6 @@
                     <allowSnapshots>false</allowSnapshots>
                 </configuration>
             </plugin>
-
         </plugins>
     </build>
 </project>
