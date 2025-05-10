@@ -15,37 +15,6 @@ Here's how it addresses this with objects:
 
 - Static Analysis: These annotations allow static analysis tools (like NullAway, Error Prone, IntelliJ's inspector) to check the code before runtime (during compilation or in the IDE).
 
-## Difference between JSpecify and JSR 305
-
-Let me explain the key differences between JSpecify and JSR 305:
-
-- Status and Support:
-
-  - JSR 305 is an older specification that was withdrawn in 2012 and is no longer actively maintained
-  - JSpecify is a newer, actively maintained project that aims to provide a modern solution for null safety in Java
-
-- Annotations:
-
-  - JSR 305 provided basic annotations like @Nonnull and @Nullable
-  - JSpecify provides a more comprehensive set of annotations:
-    - @Nullable: Indicates that a variable, parameter, or return value can hold null
-    - @NonNull: Indicates that a variable, parameter, or return value cannot hold null
-    - @NullMarked: A powerful annotation that sets the default to non-null for an entire package or class, meaning any unannotated type usage within that scope is assumed to be non-null unless explicitly marked @Nullable
-
-- Integration and Tooling:
-JSpecify is designed to work well with modern static analysis tools like:
-
-  - NullAway
-  - Error Prone
-  - IntelliJ's inspector
-
-It provides better integration with modern Java development tools and practices
-
-- Default Behavior:
-
-  - JSR 305 didn't provide a way to set default nullability behavior
-  - JSpecify's @NullMarked annotation allows you to set default nullability behavior at the package or class level, making it easier to maintain consistent null safety across your codebase
-
 ## How to build in local?
 
 ```bash
