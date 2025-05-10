@@ -7,6 +7,8 @@ JSpecify aims to solve the problem of null reference errors (like NullPointerExc
 ## How to build in local?
 
 ```bash
+sdk env install
+
 ./mvnw clean verify
 
 ./mvnw versions:display-dependency-updates
