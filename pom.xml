@@ -23,7 +23,7 @@
         <assertj.version>3.27.3</assertj.version>
 
         <!-- Maven Plugins -->
-        <maven-plugins.flatten.version>1.7.0</maven-plugins.flatten.version>
+        <maven-plugins-flatten.version>1.7.0</maven-plugins-flatten.version>
         <maven-plugin-enforcer.version>3.5.0</maven-plugin-enforcer.version>
         <maven-plugin-compiler.version>3.14.0</maven-plugin-compiler.version>
         <error-prone.version>2.38.0</error-prone.version>
@@ -81,7 +81,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>flatten-maven-plugin</artifactId>
-                <version>${maven-plugins.flatten.version}</version>
+                <version>${maven-plugins-flatten.version}</version>
                 <configuration>
                 </configuration>
                 <executions>
