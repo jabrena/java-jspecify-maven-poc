@@ -10,7 +10,7 @@ class ConstructorSimpleTest {
 
     @Test
     @DisplayName("Should create an instance when valid arguments are provided")
-    void should_createInstanceAndGetName_when_validNameIsProvided() {
+    void should_createInstanceAndGetProperty1_when_validProperty1IsProvided() {
         // Given
         String property1 = "value";
 
@@ -22,9 +22,9 @@ class ConstructorSimpleTest {
     }
 
     @Test
-    @DisplayName("Should throw NullPointerException when property1 is null")
+    @DisplayName("Should throw IllegalArgumentException when property1 is null")
     @SuppressWarnings("NullAway")
-    void should_throwNullPointerException_when_nameIsNull() {
+    void should_throwIllegalArgumentException_when_property1IsNull() {
         // Given
         String property1 = null;
 
