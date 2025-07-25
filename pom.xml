@@ -26,7 +26,7 @@
         <maven-plugins-flatten.version>1.7.0</maven-plugins-flatten.version>
         <maven-plugin-enforcer.version>3.5.0</maven-plugin-enforcer.version>
         <maven-plugin-compiler.version>3.14.0</maven-plugin-compiler.version>
-        <error-prone.version>2.38.0</error-prone.version>
+        <error-prone.version>2.41.0</error-prone.version>
         <nullaway.version>0.12.7</nullaway.version>
         <maven-plugin-versions.version>2.18.0</maven-plugin-versions.version>
         <maven-plugin-surefire.version>3.5.3</maven-plugin-surefire.version>
